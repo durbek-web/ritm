@@ -1,0 +1,56 @@
+
+.header {
+	&__container {
+		max-width: 100%;
+		min-height: 60px;
+		margin-top: 30px;
+	}
+	&__body {
+		display: flex;
+		align-items: center;
+		margin: 0px 15px;
+	}
+
+	&__logo {
+	}
+
+	&__menu {
+		display: flex;
+	}
+
+	&__button {
+	}
+}
+.menu {
+	flex: 1 1 auto;
+	justify-content: center;
+	&__list {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	&__item {
+		// font-family: "Proxima Nova";
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 135%;
+	}
+	&__item:not(:last-child) {
+		margin-right: 50px;
+	}
+	&__link {
+		color: #ffffff;
+	}
+}
+
+.button {
+	padding: 9px 15px;
+	background-color: #018abe;
+	border-radius: 3px;
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 140%;
+	font-family: "Proxima Nova";
+	// color: ;
+	// display: block;
+}
